@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&family=Work+Sans:wght@400;500;700;900&display=swap");
+@import "tailwindcss";
+
+html,
+body {
+  height: 100%;
+  font-family: "Work Sans", "Noto Sans", sans-serif;
+  background-color: #f0f2f4;
+  color: #111418;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #1980e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+  border: 1px solid #dce0e5;
+  border-radius: 12px;
+  padding: 0 15px;
+  height: 48px;
+  font-size: 16px;
+  color: #111418;
+  background-color: white;
+}
+
+input::placeholder {
+  color: #637588;
+}
+
+button.primary {
+  background-color: #1980e6;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  height: 48px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* button  secondary */
+button.secondary {
+  background-color: #f0f2f4;
+  color: #111418;
+  border: 1px solid #dce0e5;
+}
+
+button.icon {
+  background-color: transparent;
+  color: #1980e6;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+button.icon:hover {
+  opacity: 0.6;
+}
+
+button.primary:hover {
+  background-color: #136fd1;
+}
+button.secondary:hover {
+  background-color: #dce0e5;
+}

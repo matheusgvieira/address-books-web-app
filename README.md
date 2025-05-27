@@ -1,4 +1,5 @@
 # teste-tecnico-frontend-2025-trimestre-1
+
 Teste técnico para a posição de Frontend Dev. Edição do primeiro trimestre de 2025.
 
 ## A proposta: Agenda de Endereços
@@ -30,4 +31,3 @@ Este teste busca avaliar as seguintes competências:
 - Domínio sobre as APIs de uso rotineiro do navegador;
 - Capacidade de organização de código (Adendo: organize da forma que for mais familiarizado, não estamos olhando para a estrutura de pastas, mas sim para a coesão e o desacoplamento) e
 - Domínio sobre APIs do Framework React.jS e árvore DOM.
-
